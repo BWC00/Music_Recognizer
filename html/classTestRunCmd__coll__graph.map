@@ -1,0 +1,4 @@
+<map id="TestRunCmd" name="TestRunCmd">
+<area shape="rect" id="node1" title="This command tests the Boyer Moore Horspool automaton by generating random strings." alt="" coords="24,80,127,107"/>
+<area shape="rect" id="node2" href="$classCommandHandler.html" title="Abstract class representing a command." alt="" coords="5,5,145,32"/>
+</map>

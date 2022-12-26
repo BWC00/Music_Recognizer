@@ -1,0 +1,25 @@
+var annotated_dup =
+[
+    [ "About", "classAbout.html", "classAbout" ],
+    [ "addsongtolibrary", "classaddsongtolibrary.html", null ],
+    [ "AddSongToLibrary", "classAddSongToLibrary.html", "classAddSongToLibrary" ],
+    [ "Audio", "classAudio.html", "classAudio" ],
+    [ "AudioFile", "classAudioFile.html", "classAudioFile" ],
+    [ "AudioRepresentation", "classAudioRepresentation.html", "classAudioRepresentation" ],
+    [ "BoyerMooreAutomaton", "classBoyerMooreAutomaton.html", "classBoyerMooreAutomaton" ],
+    [ "CommandHandler", "classCommandHandler.html", "classCommandHandler" ],
+    [ "CommandManager", "classCommandManager.html", "classCommandManager" ],
+    [ "FoundSongsWindow", "classFoundSongsWindow.html", "classFoundSongsWindow" ],
+    [ "GuiManager", "classGuiManager.html", "classGuiManager" ],
+    [ "HelpPage", "classHelpPage.html", "classHelpPage" ],
+    [ "LibraryCmd", "classLibraryCmd.html", "classLibraryCmd" ],
+    [ "MainWindow", "classMainWindow.html", "classMainWindow" ],
+    [ "MusicLibrary", "classMusicLibrary.html", "classMusicLibrary" ],
+    [ "ParseCmd", "classParseCmd.html", "classParseCmd" ],
+    [ "RunCmd", "classRunCmd.html", "classRunCmd" ],
+    [ "SearchCmd", "classSearchCmd.html", "classSearchCmd" ],
+    [ "SongSearcherWindow", "classSongSearcherWindow.html", "classSongSearcherWindow" ],
+    [ "State", "classState.html", "classState" ],
+    [ "TestRunCmd", "classTestRunCmd.html", "classTestRunCmd" ],
+    [ "Timer", "classTimer.html", "classTimer" ]
+];

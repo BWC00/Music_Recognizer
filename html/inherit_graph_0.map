@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,80,159"/>
+<area shape="rect" id="node2" href="$classAbout.html" title="GUI Component displaying miscellaneous information." alt="" coords="179,5,239,32"/>
+<area shape="rect" id="node3" href="$classAddSongToLibrary.html" title="Window that manages information about adding a song to the library." alt="" coords="140,56,279,83"/>
+<area shape="rect" id="node4" href="$classFoundSongsWindow.html" title="window that shows the searchresults" alt="" coords="133,107,285,133"/>
+<area shape="rect" id="node5" href="$classHelpPage.html" title="GUI component displaying basic information on how to use the application." alt="" coords="168,157,251,184"/>
+<area shape="rect" id="node6" href="$classMusicLibrary.html" title="Library browsing window." alt="" coords="157,208,262,235"/>
+<area shape="rect" id="node7" href="$classSongSearcherWindow.html" title="GUI Component that informs the user of the progression of a search action." alt="" coords="128,259,291,285"/>
+</map>

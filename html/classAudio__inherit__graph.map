@@ -1,0 +1,4 @@
+<map id="Audio" name="Audio">
+<area shape="rect" id="node1" title="Represents a loaded audio object. Contains data from a loaded audio file, provides functions for conv..." alt="" coords="47,80,105,107"/>
+<area shape="rect" id="node2" href="$classAudioFile.html" title=" " alt="" coords="5,5,147,32"/>
+</map>

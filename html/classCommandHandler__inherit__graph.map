@@ -1,0 +1,8 @@
+<map id="CommandHandler" name="CommandHandler">
+<area shape="rect" id="node1" title="Abstract class representing a command." alt="" coords="207,5,347,32"/>
+<area shape="rect" id="node2" href="$classLibraryCmd.html" title="Command that managers the audio library." alt="" coords="5,80,103,107"/>
+<area shape="rect" id="node3" href="$classParseCmd.html" title="Parses a .wav file to a string in the given the output file." alt="" coords="127,80,213,107"/>
+<area shape="rect" id="node4" href="$classRunCmd.html" title="Runs a search on the library for the passed audio file." alt="" coords="238,80,315,107"/>
+<area shape="rect" id="node5" href="$classSearchCmd.html" title="This command invokes a Boyer Moore Horspool search." alt="" coords="339,80,435,107"/>
+<area shape="rect" id="node6" href="$classTestRunCmd.html" title="This command tests the Boyer Moore Horspool automaton by generating random strings." alt="" coords="460,80,563,107"/>
+</map>

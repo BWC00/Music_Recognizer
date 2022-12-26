@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpPage</class>
+ <widget class="QDialog" name="HelpPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>536</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="Test">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>511</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Help Page</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>340</y>
+     <width>181</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Return To Home Page</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>511</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Welcome to the help page. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;You can find more information about this project in the &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;[About]&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; section in the menu bar. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;If you want to acces your library, click &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;[Library]&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;[Open library]&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; (also in the menu bar). If you would like to add a file to your library without running the algorithm, click &lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;[Add To Library].&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; Make sure to specify the title and genre. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;To upload a file, click the&lt;/span&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt; [Open File On My Computer&lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;] button on your Home page. The application will then begin on itself. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;If you can't directly find the menu bar, you can also use one of the buttons below.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="AboutButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>171</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="OpenLibraryButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>310</y>
+     <width>171</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Open library</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="AddToLibraryButton">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>310</y>
+     <width>171</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add to Library</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

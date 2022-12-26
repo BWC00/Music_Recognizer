@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>About</class>
+ <widget class="QDialog" name="About">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>631</width>
+    <height>582</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="Title">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>631</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Music Recognizer &lt;span style=&quot; font-size:10pt;&quot;&gt;v1.0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>90</y>
+     <width>481</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>461</width>
+     <height>191</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1000</width>
+     <height>1000</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;A project made by Cédric Leclercq,  Robbe Nooyens,  Victor van Herel and Mohammed Shakleya.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.AppleSystemUIFont';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:600;&quot;&gt;Audio recognizer&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont';&quot;&gt;Audio recogniser automaton implemented with the Boyer-Moore Horspoool algorithm for the course &amp;quot;Languages and Automata&amp;quot; (&amp;quot;Talen en Automaten&amp;quot;). This project has been made by Cédric Leclercq,  Mohammed Shakleya, Robbe Nooyens and Victor van Herel.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.AppleSystemUIFont';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:600;&quot;&gt;Visualisation&lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont';&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:600;&quot;&gt;of the automaton&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont';&quot;&gt;To visualize this automaton, download graphviz via the commando 'sudo apt install graphviz' on Linux.  If you run MacOS and have homebrew installed,  you can also use 'brew install graphviz'.  When installed,  you can turn a .dot file to an image of the automaton with the following command 'dot -Tpng &amp;lt;inputfile&amp;gt; -o &amp;lt;output-file[.png]&amp;gt;'.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.AppleSystemUIFont';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:600;&quot;&gt;Introduction&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont';&quot;&gt;In this time and day,  so much music is produced that it is nearly impossible to sing along with every song without making mistakes,  leave alone that you know the title.  A few years ago a solution for this problem was provided by Philip Inghelbrecht and a few others with Shazam.  With this app you can find a song's name with just an audio fragment in a few seconds.  As an average user you obviously don't question how the app exactly works.  If you're intrested in computers and coding, then you might already start speculating,  but if you learn about automata as well,  you will find yourself seeing the whole project before you!&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.AppleSystemUIFont';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:600;&quot;&gt;General discription of the project&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont';&quot;&gt;Our project is our own interpretation of Shazam. Our focus will not be on exactly recognising songs,  but on finding simular numbers.  For example,  it can be possible that you dance the roof of on a certain beat of a song that has a duration of only a few seconds.  Our application will search for simular beats.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.AppleSystemUIFont';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-weight:600;&quot;&gt;Short description of the Boyer-Moore algorithm&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont';&quot;&gt;What is the Boyer-Moore algorithm? This algorithm is a pattern matching algorithm developed with the purpose to be much more efficiënt in finding a string of characters in a big text file,  from websites to PDF-files.  The algorithm will search for occurences of a given character, typically a short piece,  in a way longer text.  The efficienty of the algorithm comes from the fully new view on searching for something,  it uses specific heuristics on certain situations where there certainly is a match that will not occur from the beginning of this situation, to skip that part.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.AppleSystemUIFont';&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="returnHomeButton">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>540</y>
+     <width>161</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Return To Home Page</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,4 @@
+<map id="RunCmd" name="RunCmd">
+<area shape="rect" id="node1" title="Runs a search on the library for the passed audio file." alt="" coords="37,80,114,107"/>
+<area shape="rect" id="node2" href="$classCommandHandler.html" title="Abstract class representing a command." alt="" coords="5,5,145,32"/>
+</map>

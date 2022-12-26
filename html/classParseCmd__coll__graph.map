@@ -1,0 +1,4 @@
+<map id="ParseCmd" name="ParseCmd">
+<area shape="rect" id="node1" title="Parses a .wav file to a string in the given the output file." alt="" coords="32,80,119,107"/>
+<area shape="rect" id="node2" href="$classCommandHandler.html" title="Abstract class representing a command." alt="" coords="5,5,145,32"/>
+</map>

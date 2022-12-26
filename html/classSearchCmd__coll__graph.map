@@ -1,0 +1,4 @@
+<map id="SearchCmd" name="SearchCmd">
+<area shape="rect" id="node1" title="This command invokes a Boyer Moore Horspool search." alt="" coords="27,80,123,107"/>
+<area shape="rect" id="node2" href="$classCommandHandler.html" title="Abstract class representing a command." alt="" coords="5,5,145,32"/>
+</map>

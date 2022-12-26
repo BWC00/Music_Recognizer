@@ -1,0 +1,13 @@
+<map id="src/GUI/helppage.cpp" name="src/GUI/helppage.cpp">
+<area shape="rect" id="node1" title=" " alt="" coords="217,5,377,32"/>
+<area shape="rect" id="node2" href="$helppage_8h.html" title=" " alt="" coords="5,80,100,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="124,80,237,107"/>
+<area shape="rect" id="node5" href="$about_8h.html" title=" " alt="" coords="261,80,332,107"/>
+<area shape="rect" id="node6" href="$musiclibrary_8h.html" title=" " alt="" coords="528,80,641,107"/>
+<area shape="rect" id="node11" href="$AddSongToLibrary_8h.html" title=" " alt="" coords="356,80,504,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="326,155,401,181"/>
+<area shape="rect" id="node7" href="$AudioRepresentation_8h.html" title=" " alt="" coords="493,155,676,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="470,229,529,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="553,229,616,256"/>
+<area shape="rect" id="node10" title=" " alt="" coords="640,229,716,256"/>
+</map>
